@@ -9,12 +9,6 @@ export class CartService {
   items: Product[] = [];
 
 
-
-  export class CartService {
-    items: Product[] = [];
-
-
-
     addToCart(product: Product) {
       this.items.push(product);
     }
